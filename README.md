@@ -24,10 +24,10 @@ This project aims to analyze the availability of emergency rooms in Surakarta us
 
 ### Content
 The repository contains the following files and directories:
-- ==Dataset==: A directory containing datasets
-- <Model/> : A directory containing the progam code
-- <README.md> : A markdown file describing the project
-- <Data Rumah sakit Fiks di Surakarta.csv> : The dataset containing hospital information including longitude and latitude
+- ==Dataset== : A directory containing datasets
+- <mark>Model<mark> : A directory containing the progam code
+- ```README.md``` : A markdown file describing the project
+- `Data Rumah sakit Fiks di Surakarta.csv` : The dataset containing hospital information including longitude and latitude
 - <Data Rumah sakit Fiks di Surakarta.csv> : The dataset contains the name of the disease and the initial treatment method
 - <api.py> : Python script to build a simple API as an endpoint for using machine learning models.
 - <requirements.txt> : Contains a list of important libraries for the project.
