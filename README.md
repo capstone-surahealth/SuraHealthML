@@ -24,21 +24,21 @@ This project aims to analyze the availability of emergency rooms in Surakarta us
 
 ### Content
 The repository contains the following files and directories:
-Longitude <Dataset/> : A directory containing datasets
-<Model/> : A directory containing the progam code
-<README.md> : A markdown file describing the project
-<Data Rumah sakit Fiks di Surakarta.csv> : The dataset containing hospital information including longitude and latitude
-<Data Rumah sakit Fiks di Surakarta.csv> : The dataset contains the name of the disease and the initial treatment method
-<api.py> : Python script to build a simple API as an endpoint for using machine learning models.
-<requirements.txt> : Contains a list of important libraries for the project.
+- ==Dataset==: A directory containing datasets
+- <Model/> : A directory containing the progam code
+- <README.md> : A markdown file describing the project
+- <Data Rumah sakit Fiks di Surakarta.csv> : The dataset containing hospital information including longitude and latitude
+- <Data Rumah sakit Fiks di Surakarta.csv> : The dataset contains the name of the disease and the initial treatment method
+- <api.py> : Python script to build a simple API as an endpoint for using machine learning models.
+- <requirements.txt> : Contains a list of important libraries for the project.
 
 ### Data Understanding
 We use the Hospital dataset that we collect ourselves. Hospital data comes from the Ministry of Health's SIRANAP web scraping and manual input.
 In total we use 19 Hospitals with 105 entries and 14 columns, with an initial data type of 2 float columns, 2 integer columns, and 10 object columns.
 
-<mark>Marked text</mark>
+
 - Kode Rumah Sakit: Hospital Code
-- <Type> : classification of General Hospitals based on the Minister of Health of the Republic of Indonesia Number 3 of 2020 Chapter III Pasal 16
+- Type : classification of General Hospitals based on the Minister of Health of the Republic of Indonesia Number 3 of 2020 Chapter III Pasal 16
 - Kelas : types of rooms based on the functions and facilities provided
 - Kamar : the names of the sub rooms that still have free space
 - Jumlah Bed : the amount of free space available in a Class(“Kelas”)
