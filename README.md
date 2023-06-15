@@ -47,4 +47,18 @@ In total we use 19 Hospitals with 105 entries and 14 columns, with an initial da
 - Longitude: the longitude of the hospital point
 - Latitude : the lattiude of the hospital point
 
+### Data cleaning
+Based on the results, there are missing values in the email and class columns. We also specified the fields we didn't need and then removed the email and room feature.
+
+### Data Preparation
+Based on visualizing the data distribution using boxplots, there are no outliers in the latitude and longitude columns.
+We also provide weighting for Longitude and Latitude because we prioritize these factors more than "Type of Bed" and "BPJS."
+
+
+## Modelling
+### Approach
+In this section, I will explain the two main parts of this project, namely providing the first aid feature and the closest hospital recommendation feature based on latitude as the main factor and supported by "hospital type" and "BPJS" factors using the K-meaning Clustering approach with Tensorflow.
+approach with scaling and without scaling we do. The scaling feature serves to give weight to the "Longitude" and "Latitude" features because we expect distance to be the main recommendation factor, compared to "Hospital Type" and "BPJS".
+
+## Evaluation
 
