@@ -1,5 +1,4 @@
 # SuraHealth
-![image.png]( {'https://raw.githubusercontent.com/capstone-surahealth/.github/main/logo%20SuraHealth.png](https://user-images.githubusercontent.com/108482555/246332339-c53bafc6-f640-4ff5-b0bd-a0c561113084.PNG'} )
 
 # K-means Clustering using Tensorflow
 # Team Profile
@@ -69,5 +68,8 @@ We also provide weighting for `Longitude` and `Latitude` because we prioritize t
 In this section, I will explain the two main parts of this project, namely providing the first aid feature and the closest hospital recommendation feature based on latitude as the main factor and supported by "hospital type" and "BPJS" factors using the K-meaning Clustering approach with Tensorflow.
 approach with scaling and without scaling we do. The scaling feature serves to give weight to the "Longitude" and "Latitude" features because we expect distance to be the main recommendation factor, compared to "Hospital Type" and "BPJS".
 
-## Evaluation
+We use matriks silhoutte with k optimal = 6
+Library yang kita gunakan yaitu Scikit Learn dan Tensorflow.
+Kita menggunakan python programming language dengan tools adalah VScode.
+
 
