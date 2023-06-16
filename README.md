@@ -1,5 +1,5 @@
 # SuraHealth
-![image.png]({https://drive.google.com/file/d/1WLqiiOG3V7P1cuaoKp09E1anZfs2Giq8/view?usp=drive_link})
+![image.png]({https://raw.githubusercontent.com/capstone-surahealth/.github/main/logo%20SuraHealth.png})
 
 # K-means Clustering using Tensorflow
 # Team Profile
